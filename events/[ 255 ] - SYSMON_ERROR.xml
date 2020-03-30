@@ -1,0 +1,6 @@
+<event name="SYSMON_ERROR" value="255" level="Error" template="Error report" version="3">
+			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
+			<data name="ID" inType="win:UnicodeString" outType="xs:string" />
+			<data name="Description" inType="win:UnicodeString" outType="xs:string" />
+		</event>
+		
