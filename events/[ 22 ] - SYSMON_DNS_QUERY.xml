@@ -1,11 +1,11 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_DNS_QUERY" value="22" level="Informational" template="Dns query" rulename="DnsQuery" ruledefault="exclude" version="5">
-			<data name="RuleName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="ProcessGuid" inType="win:GUID" />
-			<data name="ProcessId" inType="win:UInt32" outType="win:PID" />
-			<data name="QueryName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="QueryStatus" inType="win:UnicodeString" outType="xs:string" />
-			<data name="QueryResults" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Image" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-	
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="ProcessGuid" inType="win:GUID"/>
+	<data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="QueryName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="QueryStatus" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="QueryResults" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+</event>

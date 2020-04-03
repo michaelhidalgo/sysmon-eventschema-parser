@@ -1,10 +1,10 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_REG_KEY" value="12" level="Informational" template="Registry object added or deleted" rulename="RegistryEvent" ruledefault="include" version="2">
-			<data name="RuleName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="EventType" inType="win:UnicodeString" outType="xs:string" />
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="ProcessGuid" inType="win:GUID" />
-			<data name="ProcessId" inType="win:UInt32" outType="win:PID" />
-			<data name="Image" inType="win:UnicodeString" outType="xs:string" />
-			<data name="TargetObject" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-		
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="ProcessGuid" inType="win:GUID"/>
+	<data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="TargetObject" inType="win:UnicodeString" outType="xs:string"/>
+</event>

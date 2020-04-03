@@ -1,10 +1,10 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_CONNECT_NAMEDPIPE" value="18" level="Informational" template="Pipe Connected" rulename="PipeEvent" ruledefault="exclude" version="1">
-			<data name="RuleName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="EventType" inType="win:UnicodeString" outType="xs:string" />
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="ProcessGuid" inType="win:GUID" />
-			<data name="ProcessId" inType="win:UInt32" outType="win:PID" />
-			<data name="PipeName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Image" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-		
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="ProcessGuid" inType="win:GUID"/>
+	<data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="PipeName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+</event>

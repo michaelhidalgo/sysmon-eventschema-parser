@@ -1,6 +1,6 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_SERVICE_CONFIGURATION_CHANGE" value="16" level="Informational" template="Sysmon config state changed" version="3">
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Configuration" inType="win:UnicodeString" outType="xs:string" />
-			<data name="ConfigurationFileHash" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-		
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Configuration" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="ConfigurationFileHash" inType="win:UnicodeString" outType="xs:string"/>
+</event>

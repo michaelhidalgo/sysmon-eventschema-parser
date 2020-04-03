@@ -1,11 +1,11 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_WMI_CONSUMER" value="20" level="Informational" template="WmiEventConsumer activity detected" rulename="WmiEvent" ruledefault="exclude" version="3">
-			<data name="RuleName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="EventType" inType="win:UnicodeString" outType="xs:string" />
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Operation" inType="win:UnicodeString" outType="xs:string" />
-			<data name="User" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Name" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Type" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Destination" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-		
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Operation" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="User" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Name" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Type" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Destination" inType="win:UnicodeString" outType="xs:string"/>
+</event>

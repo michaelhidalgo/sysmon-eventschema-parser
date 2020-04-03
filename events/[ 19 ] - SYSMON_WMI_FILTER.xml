@@ -1,11 +1,11 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_WMI_FILTER" value="19" level="Informational" template="WmiEventFilter activity detected" rulename="WmiEvent" ruledefault="exclude" version="3">
-			<data name="RuleName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="EventType" inType="win:UnicodeString" outType="xs:string" />
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Operation" inType="win:UnicodeString" outType="xs:string" />
-			<data name="User" inType="win:UnicodeString" outType="xs:string" />
-			<data name="EventNamespace" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Name" inType="win:UnicodeString" outType="xs:string" />
-			<data name="Query" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-		
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Operation" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="User" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="EventNamespace" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Name" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Query" inType="win:UnicodeString" outType="xs:string"/>
+</event>

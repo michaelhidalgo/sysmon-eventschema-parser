@@ -1,14 +1,9 @@
-http://leyte-gulf.akira.knogin.com:9200/
-http://farragut.milky.virgo.knogin.com:9200/
-
-
-elasticdump \
-  --input=http://leyte-gulf.akira.knogin.com:9200/winlogbeat-43dafb15-cd10-d9f0-3a7b-32be8c41f0f4_index_2020.03.18 \
-  --output=http://farragut.milky.virgo.knogin.com:9200/43dafb15-cd10-d9f0-3a7b-32be8c41f0f4_index_2020.03.18 \
-  --type=data --limit=10000 --concurrency=20
-
-
-elasticdump \
-  --input=http://leyte-gulf.akira.knogin.com:9200/winlogbeat-43dafb15-cd10-d9f0-3a7b-32be8c41f0f4_index_2020.03.20 \
-  --output=http://farragut.milky.virgo.knogin.com:9200/43dafb15-cd10-d9f0-3a7b-32be8c41f0f4_index_2020.03.20 \
-  --type=data --limit=10000 --concurrency=10
+<?xml version="1.0" ?>
+<event name="SYSMON_RAWACCESS_READ" value="9" level="Informational" template="RawAccessRead detected" rulename="RawAccessRead" version="2">
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="ProcessGuid" inType="win:GUID"/>
+	<data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="Device" inType="win:UnicodeString" outType="xs:string"/>
+</event>

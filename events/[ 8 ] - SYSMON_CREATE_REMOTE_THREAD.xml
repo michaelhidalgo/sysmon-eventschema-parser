@@ -1,15 +1,15 @@
+<?xml version="1.0" ?>
 <event name="SYSMON_CREATE_REMOTE_THREAD" value="8" level="Informational" template="CreateRemoteThread detected" rulename="CreateRemoteThread" version="2">
-			<data name="RuleName" inType="win:UnicodeString" outType="xs:string" />
-			<data name="UtcTime" inType="win:UnicodeString" outType="xs:string" />
-			<data name="SourceProcessGuid" inType="win:GUID" />
-			<data name="SourceProcessId" inType="win:UInt32" outType="win:PID" />
-			<data name="SourceImage" inType="win:UnicodeString" outType="xs:string" />
-			<data name="TargetProcessGuid" inType="win:GUID" />
-			<data name="TargetProcessId" inType="win:UInt32" outType="win:PID" />
-			<data name="TargetImage" inType="win:UnicodeString" outType="xs:string" />
-			<data name="NewThreadId" inType="win:UInt32" />
-			<data name="StartAddress" inType="win:UnicodeString" outType="xs:string" />
-			<data name="StartModule" inType="win:UnicodeString" outType="xs:string" />
-			<data name="StartFunction" inType="win:UnicodeString" outType="xs:string" />
-		</event>
-		
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="SourceProcessGuid" inType="win:GUID"/>
+	<data name="SourceProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="SourceImage" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="TargetProcessGuid" inType="win:GUID"/>
+	<data name="TargetProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="TargetImage" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="NewThreadId" inType="win:UInt32"/>
+	<data name="StartAddress" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="StartModule" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="StartFunction" inType="win:UnicodeString" outType="xs:string"/>
+</event>

@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+import xml.dom.minidom
 from xml.etree import ElementTree
 import os
 
@@ -17,10 +18,12 @@ def parse_sysmon_events():
     print("+ Done")
 
 def save_xml(name, content):
-    dest_folder  = "./events/"
-    target_file  = name + ".xml"
+    content_as_xml     = xml.dom.minidom.parseString(content).toprettyxml()
+    xml_string         = os.linesep.join([s for s in content_as_xml.splitlines() if s.strip()]) # remove the weird newline issue
+    dest_folder        = "./events/"
+    target_file        = name + ".xml"
     fw = open(os.path.join(dest_folder, target_file), "w")
-    fw.write(content)
+    fw.write(xml_string)
     fw.flush()
 
 #main method
