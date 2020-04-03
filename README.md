@@ -2,7 +2,7 @@
 
 This is a short script that pull out individual XML documents out of the Sysmon v10.4 (Schema 4.22).
 
-#Why this?
+# Why this?
 Sysmon Schema is not well-formed in the sense that cannot be used with XSD toolset, and in order to undertand it and the
 relationship between their events, I found it was easier to look at them individually.
 
