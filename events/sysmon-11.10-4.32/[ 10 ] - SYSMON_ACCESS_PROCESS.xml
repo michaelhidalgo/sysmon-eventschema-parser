@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<event name="SYSMON_ACCESS_PROCESS" value="10" level="Informational" template="Process accessed" rulename="ProcessAccess" version="3">
+	<data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="SourceProcessGUID" inType="win:GUID"/>
+	<data name="SourceProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="SourceThreadId" inType="win:UInt32"/>
+	<data name="SourceImage" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="TargetProcessGUID" inType="win:GUID"/>
+	<data name="TargetProcessId" inType="win:UInt32" outType="win:PID"/>
+	<data name="TargetImage" inType="win:UnicodeString" outType="xs:string"/>
+	<data name="GrantedAccess" inType="win:HexInt32"/>
+	<data name="CallTrace" inType="win:UnicodeString" outType="xs:string"/>
+</event>
