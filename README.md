@@ -1,6 +1,9 @@
-# Sysmon Individual Event Schema
+# Sysmon Individual Event Schemas
 
-This is a short script that pulls out individual XML events out of the Sysmon v10.42 (Schema 4.22).
+This is a short script that pulls out individual XML events out of the Sysmon Schemas v10.42 (Schema 4.22) and Schema v11.10 (4.23).
+
+Having events separated per schema allows to compare them.
+
 
 # Why this?
 
